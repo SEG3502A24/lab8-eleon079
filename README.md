@@ -6,16 +6,16 @@ Launch Docker
 Run the following command in the Command Prompt:    
 **docker run -d -p 27017:27017 --name mongodb -d mongo**  
 
+Then go the the server branch.  
+In the command prompt, run the following:  
+**cd (server branch path)**  
+**.\gradlew bootRun**  
+
 Then go to the client branch.  
 In the command prompt run the following:    
 **cd (client branch path)**  
 **npm install --legacy-peer-deps** (to solve dependency issues for a regular npm install)  
 **ng serve**  
-
-Then go the the server branch.  
-In the command prompt, run the following:  
-**cd (server branch path)**  
-**.\gradlew bootRun**  
   
 go to http://localhost:4200/employee to view the application.  
 go to http://localhost:9000/graphiql?path=/graphql for the graphql interface       
