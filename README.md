@@ -18,8 +18,25 @@ In the command prompt, run the following:
 **.\gradlew bootRun**  
   
 go to http://localhost:4200/employee to view the application.  
-go to http://localhost:9000/graphiql?path=/graphql for the graphql interface  
+go to http://localhost:9000/graphiql?path=/graphql for the graphql interface       
   
+  
+Demonstrating the program:
+
+***GraphQL interface:***  
+![lab8_img1](https://github.com/user-attachments/assets/424a0952-4b00-40ec-bbfc-7e00dd3b1285)
+![lab8_img2](https://github.com/user-attachments/assets/e3916156-93e1-4bb5-bc44-d1f1b9310918)
+![lab8_img3](https://github.com/user-attachments/assets/7237c583-40cb-4166-a952-db589869e16c)
+![lab8_img4](https://github.com/user-attachments/assets/d8a3e552-1a68-4f3d-830d-ea1ff9264ff2)
+![lab8_img5](https://github.com/user-attachments/assets/85defa25-abb4-4555-bb71-7a7a12689748)  
+***GraphQL and Angular side by side:***
+![lab8_img6](https://github.com/user-attachments/assets/d40bdb3c-6ee6-42ff-9355-afa4e063d96a)  
+***Adding an employee through the Angular interface:***
+![lab8_img7](https://github.com/user-attachments/assets/53207d49-4d56-43be-87fd-ec3325dd51fd)
+![lab8_img8](https://github.com/user-attachments/assets/29048792-df4c-4117-bb24-de33c94e1b94)
+***Deleting an employee through the GraphQL interface:***
+![lab8_img9](https://github.com/user-attachments/assets/a3f41efc-4731-4e60-8355-cd39aa6092f5)
+
   
 
    
