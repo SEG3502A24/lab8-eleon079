@@ -5,4 +5,8 @@ import org.springframework.stereotype.Repository
 import seg3x02.employeeGql.entity.Employee
 
 @Repository
-interface EmployeesRepository: MongoRepository<Employee, String>
+interface EmployeesRepository: MongoRepository<Employee, String> {
+    fun findByName(name: String): Employee?
+    fun deleteByName(name: String)
+    fun existsByName(name:String): Boolean
+}

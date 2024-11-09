@@ -3,15 +3,18 @@ package seg3x02.employeeGql.entity
 import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document
 
+import org.bson.types.ObjectId
+
 @Document(collection = "employee")
 data class Employee(
-        val name: String,
-        val dateOfBirth: String,
-        val city: String,
-        val salary: Float,
-        val gender: String?,
-        val email: String?
+    // Changed from val to var
+        var name: String,
+        var dateOfBirth: String,
+        var city: String,
+        var salary: Float,
+        var gender: String? = null,
+        var email: String? = null
 ) {
     @Id
-    var id: String = ""
+    var id: String = ObjectId().toString()
 }
