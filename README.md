@@ -8,7 +8,7 @@ Run the following command in the Command Prompt:
 
 Then go to the client branch.  
 In the command prompt run the following:    
-**cd (client branch)**  
+**cd (client branch path)**  
 **npm install --legacy-peer-deps** (to solve dependency issues for a regular npm install)  
 **ng serve**  
 
